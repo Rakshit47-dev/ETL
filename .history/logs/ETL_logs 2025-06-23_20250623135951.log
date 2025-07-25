@@ -1,0 +1,34 @@
+[2025-06-23T08:25:52.974Z] [LOG] ✅ Connected to PostgreSQL
+[2025-06-23T08:25:53.128Z] [LOG] ✅ Connected to Oracle
+[2025-06-23T08:25:53.129Z] [LOG] 🔧 Deleting rows from PostgreSQL tables …
+[2025-06-23T08:25:53.133Z] [LOG] 🗑️  Deleted 0 row(s) from student_academics (Postgres)
+[2025-06-23T08:25:53.135Z] [LOG] 🔧 Disabling Oracle FK constraints …
+[2025-06-23T08:25:53.326Z] [LOG] 🔧 Deleting rows from Oracle tables …
+[2025-06-23T08:25:53.335Z] [LOG] 🗑️  Deleted 0 row(s) from MARKS (Oracle)
+[2025-06-23T08:25:53.346Z] [LOG] 🗑️  Deleted 0 row(s) from STUDENTS (Oracle)
+[2025-06-23T08:25:53.352Z] [LOG] 🗑️  Deleted 0 row(s) from SUBJECTS (Oracle)
+[2025-06-23T08:25:53.361Z] [LOG] 🗑️  Deleted 0 row(s) from DEPARTMENTS (Oracle)
+[2025-06-23T08:25:53.364Z] [LOG] 🗑️  Deleted 0 row(s) from GRADE (Oracle)
+[2025-06-23T08:25:53.366Z] [LOG] 🔧 Re‑enabling Oracle FK constraints …
+[2025-06-23T08:25:53.591Z] [LOG] ✅ Oracle purge complete (constraints restored)
+[2025-06-23T08:25:53.591Z] [LOG] 
+🎉 Purge finished – databases are now empty.
+[2025-06-23T08:25:53.602Z] [LOG] 
+=== PostgreSQL deletion summary ===
+[2025-06-23T08:25:53.603Z] [INFO] student_academics: 0 row(s) deleted.
+[2025-06-23T08:25:53.604Z] [LOG] 
+=== Oracle deletion summary ===
+[2025-06-23T08:25:53.605Z] [INFO] MARKS: 0 row(s) deleted.
+[2025-06-23T08:25:53.605Z] [INFO] STUDENTS: 0 row(s) deleted.
+[2025-06-23T08:25:53.606Z] [INFO] SUBJECTS: 0 row(s) deleted.
+[2025-06-23T08:25:53.606Z] [INFO] DEPARTMENTS: 0 row(s) deleted.
+[2025-06-23T08:25:53.606Z] [INFO] GRADE: 0 row(s) deleted.
+[2025-06-23T08:28:48.862Z] [LOG] ✅ Connected to Oracle
+[2025-06-23T08:28:48.868Z] [LOG] ✅ grade.txt loaded successfully – data extracted (9 rows)
+[2025-06-23T08:28:48.882Z] [LOG] → Inserted 9 rows into GRADE
+[2025-06-23T08:28:48.884Z] [LOG] ✅ students.txt loaded successfully – data extracted (5 rows)
+[2025-06-23T08:28:48.945Z] [LOG] ✅ All data loaded into Oracle.
+[2025-06-23T08:29:20.330Z] [LOG] ✅ Connected to PostgreSQL
+[2025-06-23T08:29:20.484Z] [LOG] ✅ Connected to Oracle
+[2025-06-23T08:29:20.523Z] [LOG] 🔹 Pulled 5 students from Oracle
+[2025-06-23T08:29:20.534Z] [LOG] ✅ Upserted 5 records into PostgreSQL

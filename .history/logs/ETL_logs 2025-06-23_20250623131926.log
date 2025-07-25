@@ -1,0 +1,14 @@
+[2025-06-23T07:49:26.892Z] [LOG] ✅ Connected to PostgreSQL
+[2025-06-23T07:49:27.056Z] [LOG] ✅ Connected to Oracle
+[2025-06-23T07:49:27.057Z] [LOG] 🔧 Deleting rows from PostgreSQL tables …
+[2025-06-23T07:49:27.061Z] [LOG] 🗑️  Deleted rows from student_academics (Postgres)
+[2025-06-23T07:49:27.064Z] [LOG] 🔧 Disabling Oracle FK constraints …
+[2025-06-23T07:49:27.227Z] [LOG] 🔧 Deleting rows from Oracle tables …
+[2025-06-23T07:49:27.236Z] [LOG] 🗑️  Deleted rows from MARKS (Oracle)
+[2025-06-23T07:49:27.244Z] [LOG] 🗑️  Deleted rows from STUDENTS (Oracle)
+[2025-06-23T07:49:27.253Z] [LOG] 🗑️  Deleted rows from SUBJECTS (Oracle)
+[2025-06-23T07:49:27.262Z] [LOG] 🗑️  Deleted rows from DEPARTMENTS (Oracle)
+[2025-06-23T07:49:27.264Z] [LOG] 🗑️  Deleted rows from GRADE (Oracle)
+[2025-06-23T07:49:27.267Z] [LOG] 🔧 Re‑enabling Oracle FK constraints …
+[2025-06-23T07:49:27.596Z] [LOG] ✅ Oracle purge complete (constraints restored)
+[2025-06-23T07:49:27.596Z] [LOG] 🎉 Purge finished – databases are now empty.

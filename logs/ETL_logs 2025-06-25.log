@@ -1,0 +1,44 @@
+[2025-06-25T12:33:29.798Z] [LOG] ------------PURGE_SCRIPT_STARTS------------ 
+[2025-06-25T12:33:29.973Z] [LOG] ✅ Connected to PostgreSQL
+[2025-06-25T12:33:30.529Z] [LOG] ✅ Connected to Oracle
+[2025-06-25T12:33:30.531Z] [LOG] 🔧 Deleting rows from PostgreSQL tables …
+[2025-06-25T12:33:30.539Z] [LOG] ❌  Deleted 5 row(s) from student_academics (Postgres)
+[2025-06-25T12:33:30.542Z] [LOG] 🔧 Disabling Oracle FK constraints …
+[2025-06-25T12:33:30.787Z] [LOG] 🔧 Deleting rows from Oracle tables …
+[2025-06-25T12:33:30.794Z] [LOG] ❌  Deleted 24 row(s) from MARKS (Oracle)
+[2025-06-25T12:33:30.801Z] [LOG] ❌  Deleted 5 row(s) from STUDENTS (Oracle)
+[2025-06-25T12:33:30.809Z] [LOG] ❌  Deleted 14 row(s) from SUBJECTS (Oracle)
+[2025-06-25T12:33:30.823Z] [LOG] ❌  Deleted 3 row(s) from DEPARTMENTS (Oracle)
+[2025-06-25T12:33:30.829Z] [LOG] ❌  Deleted 9 row(s) from GRADE (Oracle)
+[2025-06-25T12:33:30.837Z] [LOG] 🔧 Re‑enabling Oracle FK constraints …
+[2025-06-25T12:33:31.184Z] [LOG] ✅ Oracle purge complete (constraints restored)
+[2025-06-25T12:33:31.186Z] [LOG] 
+🎉 Purge finished – databases are now empty.
+[2025-06-25T12:33:31.196Z] [LOG] 
+=== PostgreSQL deletion summary ===
+[2025-06-25T12:33:31.197Z] [INFO] student_academics: 5 row(s) deleted.
+[2025-06-25T12:33:31.198Z] [LOG] 
+=== Oracle deletion summary ===
+[2025-06-25T12:33:31.198Z] [INFO] MARKS: 24 row(s) deleted.
+[2025-06-25T12:33:31.199Z] [INFO] STUDENTS: 5 row(s) deleted.
+[2025-06-25T12:33:31.199Z] [INFO] SUBJECTS: 14 row(s) deleted.
+[2025-06-25T12:33:31.200Z] [INFO] DEPARTMENTS: 3 row(s) deleted.
+[2025-06-25T12:33:31.200Z] [INFO] GRADE: 9 row(s) deleted.
+[2025-06-25T12:34:24.130Z] [LOG] ------------LOAD_TO_ORACLE--------------
+[2025-06-25T12:34:24.135Z] [LOG] ⏳ Trying to Connect To ORACLE database ⏳
+[2025-06-25T12:34:24.137Z] [LOG] ✅ grade.txt loaded – 9 data row(s)
+[2025-06-25T12:34:24.138Z] [LOG] ✅ grade.txt validation passed
+[2025-06-25T12:34:24.138Z] [LOG] ✅ students.txt loaded – 5 data row(s)
+[2025-06-25T12:34:24.139Z] [LOG] ✅ students.txt validation passed
+[2025-06-25T12:34:24.452Z] [LOG] ✅ Connected to Oracle
+[2025-06-25T12:34:24.474Z] [LOG] → Extracted 9 GRADE row(s)
+[2025-06-25T12:34:24.575Z] [LOG] → Extracted 5 STUDENT row(s)
+[2025-06-25T12:34:24.577Z] [LOG] ✅ All data loaded into Oracle.
+[2025-06-25T12:35:06.714Z] [LOG] ------------ORACLE_TO_POSTGRES------------
+[2025-06-25T12:35:06.912Z] [LOG] ⏳ Trying to Connect To PostgreSQL database ⏳
+[2025-06-25T12:35:06.913Z] [LOG] ✅ Connected to PostgreSQL
+[2025-06-25T12:35:06.915Z] [LOG] ⏳ Trying to Connect To ORACLE database ⏳
+[2025-06-25T12:35:07.111Z] [LOG] ✅ Connected to Oracle
+[2025-06-25T12:35:07.135Z] [LOG] 🔹 Pulled 5 students from Oracle
+[2025-06-25T12:35:07.149Z] [LOG] ✅ Upserted 5 records into PostgreSQL
+[2025-06-25T12:35:07.150Z] [LOG] ✅ ETL from Oracle to PostgreSQL completed

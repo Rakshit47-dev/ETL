@@ -1,0 +1,10 @@
+grade_id,grade_code,grade_label,percentage_range,gpa_equivalent
+1,A1,Outstanding,91-100,4
+2,A2,Excellent,81-90,3.6
+3,B1,Very Good,71-80,3.2
+4,B2,Good,61-70,2.8
+5,C1,Above Average,51-60,2.4
+6,C2,Average,41-50,2
+7,D,Pass,33-40,1.6
+8,E1,Needs Improvement,21-32,1.2
+9,E2,Fail,0-20,0

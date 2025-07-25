@@ -1,0 +1,37 @@
+[2025-06-23T07:23:07.094Z] [LOG] ✅ Connected to PostgreSQL
+[2025-06-23T07:23:08.062Z] [LOG] ✅ Connected to Oracle
+[2025-06-23T07:23:08.063Z] [LOG] 🔧 Deleting rows from PostgreSQL tables …
+[2025-06-23T07:23:08.084Z] [LOG] 🗑️  Deleted rows from student_academics (Postgres)
+[2025-06-23T07:23:08.087Z] [LOG] 🔧 Disabling Oracle FK constraints …
+[2025-06-23T07:23:09.962Z] [LOG] 🔧 Deleting rows from Oracle tables …
+[2025-06-23T07:23:09.980Z] [LOG] 🗑️  Deleted rows from MARKS (Oracle)
+[2025-06-23T07:23:09.993Z] [LOG] 🗑️  Deleted rows from STUDENTS (Oracle)
+[2025-06-23T07:23:10.007Z] [LOG] 🗑️  Deleted rows from SUBJECTS (Oracle)
+[2025-06-23T07:23:10.027Z] [LOG] 🗑️  Deleted rows from DEPARTMENTS (Oracle)
+[2025-06-23T07:23:10.046Z] [LOG] 🗑️  Deleted rows from GRADE (Oracle)
+[2025-06-23T07:23:10.050Z] [LOG] 🔧 Re‑enabling Oracle FK constraints …
+[2025-06-23T07:23:11.479Z] [LOG] ✅ Oracle purge complete (constraints restored)
+[2025-06-23T07:23:11.479Z] [LOG] 🎉 Purge finished – databases are now empty.
+[2025-06-23T07:23:28.738Z] [LOG] ✅ Connected to Oracle
+[2025-06-23T07:23:28.745Z] [LOG] ✅ grade.txt loaded successfully – data extracted (9 rows)
+[2025-06-23T07:23:28.766Z] [LOG] → Inserted 9 rows into GRADE
+[2025-06-23T07:23:28.768Z] [LOG] ✅ students.txt loaded successfully – data extracted (5 rows)
+[2025-06-23T07:23:28.882Z] [LOG] ✅ All data loaded into Oracle.
+[2025-06-23T07:23:36.383Z] [LOG] ✅ Connected to PostgreSQL
+[2025-06-23T07:23:36.625Z] [LOG] ✅ Connected to Oracle
+[2025-06-23T07:23:36.665Z] [LOG] 🔹 Pulled 5 students from Oracle
+[2025-06-23T07:23:36.697Z] [LOG] ✅ Upserted 5 records into PostgreSQL
+[2025-06-23T07:26:47.202Z] [LOG] ✅ Connected to PostgreSQL
+[2025-06-23T07:26:47.382Z] [LOG] ✅ Connected to Oracle
+[2025-06-23T07:26:47.383Z] [LOG] 🔧 Deleting rows from PostgreSQL tables …
+[2025-06-23T07:26:47.389Z] [LOG] 🗑️  Deleted rows from student_academics (Postgres)
+[2025-06-23T07:26:47.391Z] [LOG] 🔧 Disabling Oracle FK constraints …
+[2025-06-23T07:26:48.814Z] [WARN] 🔧 Deleting rows from Oracle tables …
+[2025-06-23T07:26:48.825Z] [LOG] 🗑️  Deleted rows from MARKS (Oracle)
+[2025-06-23T07:26:48.833Z] [LOG] 🗑️  Deleted rows from STUDENTS (Oracle)
+[2025-06-23T07:26:48.841Z] [LOG] 🗑️  Deleted rows from SUBJECTS (Oracle)
+[2025-06-23T07:26:48.853Z] [LOG] 🗑️  Deleted rows from DEPARTMENTS (Oracle)
+[2025-06-23T07:26:48.857Z] [LOG] 🗑️  Deleted rows from GRADE (Oracle)
+[2025-06-23T07:26:48.861Z] [LOG] 🔧 Re‑enabling Oracle FK constraints …
+[2025-06-23T07:26:50.196Z] [LOG] ✅ Oracle purge complete (constraints restored)
+[2025-06-23T07:26:50.197Z] [LOG] 🎉 Purge finished – databases are now empty.

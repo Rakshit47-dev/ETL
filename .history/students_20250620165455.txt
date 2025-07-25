@@ -1,0 +1,6 @@
+student_id,first_name,last_name,email,department,joining_date,subject1,subject2,subject3,subject4,subject5,subject1_marks,subject2_mark,subject3_marks,subject4_marks,subject5_marks
+101,John,Doe,john.doe@example.com,Computer Science,2023-08-15,Data Structures & Algorithms,Operating Systems,Computer Networks,Database Management Systems (DBMS),Web Technologies,78,70,64,54,77
+102,Jane,Smith,jane.smith@example.com,Electrical Engineering,2022-09-01,Circuit Theory,Electrical Machines,Power Systems,Control Systems,Electromagnetic Fields,56,43,78,45,48
+103,Bob,Johnson,bob.johnson@example.com,Mechanical Engineering,2024-01-12,Engineering Mechanics,Thermodynamics,Heat and Mass Transfer,Machine Design,,67,56,89,97,90
+104,Emily,Johnson,emily.johnson@example.com,Electrical Engineering,2024-08-15,Circuit Theory,Electrical Machines,Power Systems,Control Systems,Electromagnetic Fields,75,56,52,53,54
+105,Michael,Smith,michael.smith@example.com,Computer Science,2023-09-01,Data Structures & Algorithms,Operating Systems,Computer Networks,Database Management Systems (DBMS),Web Technologies,67,54,89,45,90
